@@ -1,0 +1,23 @@
+
+.v-toolbar__content {
+    width: 100%;
+}
+
+.item-count-select {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    width: 90px;
+    .v-input__slot {
+        min-height: 30px !important;
+        height: 30px !important;
+
+        .v-input input {
+            max-height: 20px;
+        }
+
+        .v-input__append-inner {
+            margin-top: 3px !important;
+        }
+    }
+}

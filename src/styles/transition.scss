@@ -1,0 +1,25 @@
+
+.fade-enter-active,
+.fade-leave-active {
+    transition-duration: 100ms;
+    transition-property: opacity;
+    transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+    height: 0
+}
+
+.updown-enter-active,
+.updown-leave-active {
+    transition-duration: 200ms;
+    transition-property: height;
+    transition-timing-function: ease;
+}
+
+.updown-enter,
+.updown-leave-active {
+    height: 0
+}
+

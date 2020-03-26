@@ -1,0 +1,92 @@
+
+@import "./colors";
+@import "./transition";
+@import "./fontSize";
+
+@import "./vuetify";
+
+@import "./gridCheckbox";
+@import "./tui-pagination";
+
+section {
+    position: relative;
+    min-width: 800px;
+    width: 100%;
+}
+
+.content {
+    background-color: #f6f8fc;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    font-family: "NanumSquare", sans-serif !important;
+    font-size: $font-size-normal;
+    color: #1e1e1e;
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
+
+.disease-chip {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    height: 100%;
+
+    .badge {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        margin-right: 5px;
+
+        &-normal {
+            background-color: $color-state-normal;
+        }
+        &-warning {
+            background-color: $color-state-caution;
+        }
+        &-danger {
+            background-color: $color-state-danger;
+        }
+        &-very-danger {
+            background-color: $color-state-very-danger;
+        }
+    }
+}
+
+.grid-btn-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    //transform: translate(2px, 1px);
+}
+
+.btn-small-padding {
+    padding: 0 5px !important;
+}
+
+.tui-grid-cell-content {
+    text-align: center;
+    font-size: 14px;
+}
+
+.row-checked {
+    transition: .2s ease-out;
+    background-color: rgba(0, 175, 175, 0.1) !important;
+}
+
+.mini-under-bar {
+    width: 20px;
+    height: 2px;
+    margin-top: 10px;
+    border-bottom: 2px solid $color-my-blue;
+}
