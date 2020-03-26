@@ -96,11 +96,10 @@
                     {header: '이름', name: 'name'},
                     {header: '성별', name: 'gender'},
                     {header: '나이', name: 'age'},
-                    {header: '나이', name: 'age'},
-                    {header: '나이', name: 'age'},
-                    {header: '나이', name: 'age'},
-                    {header: '나이', name: 'age'},
                     {header: '날짜', name: 'date'},
+                    {header: 'Good', name: 'good'},
+                    {header: 'Hello', name: 'hello'},
+                    {header: 'World', name: 'world'},
                     {header: 'test', name: 'test', renderer: { type: gridBtn, options: { pubBtnEl, viewBtnEl } } }
                 ],
                 myTheme: {

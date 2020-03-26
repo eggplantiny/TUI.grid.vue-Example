@@ -33,7 +33,7 @@
                 const type =  Math.floor(Math.random() * 2)
                 const userIndex = Math.floor(Math.random() * 10)
                 const age = Math.floor(Math.random() * 11) + 20
-                this.data.push({ id: user[userIndex].id, name: user[userIndex].name, gender: user[userIndex].sex, age, date: '2020.03.24', test: { type, checkupNo: item } })
+                this.data.push({ id: user[userIndex].id, name: user[userIndex].name, gender: user[userIndex].sex, age, date: '2020.03.24', good: 'good', hello: 'hello', world: 'world', test: { type, checkupNo: item } })
             })
         }
     }
